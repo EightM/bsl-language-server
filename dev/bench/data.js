@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1588761219437,
+  "lastUpdate": 1588924921326,
   "repoUrl": "https://github.com/EightM/bsl-language-server",
   "entries": {
     "BSL LS perfomance measurement (SSL 3.1)": [
@@ -310,6 +310,37 @@ window.BENCHMARK_DATA = {
             "unit": "sec",
             "range": "stddev: 1.5494788735062963",
             "extra": "mean: 75.04542072614034 sec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nixel2007@gmail.com",
+            "name": "Nikita Gryzlov",
+            "username": "nixel2007"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "07fbf00bf5a244777df5fcadbcdaa1a932338a75",
+          "message": "Merge pull request #1173 from 1c-syntax/fix/unrechebleCodeEndIf\n\nfix unreacheable preproc_endIf fp",
+          "timestamp": "2020-05-08T00:45:10+03:00",
+          "tree_id": "bd99ecbe33fb790d3c9bf497c6cff2dd9eeddcb1",
+          "url": "https://github.com/EightM/bsl-language-server/commit/07fbf00bf5a244777df5fcadbcdaa1a932338a75"
+        },
+        "date": 1588924919875,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": ".github/scripts/benchmark.py::test_analyze_ssl31",
+            "value": 77.05019187927246,
+            "unit": "sec",
+            "range": "stddev: 0.8200358780180573",
+            "extra": "mean: 77.05019187927246 sec\nrounds: 3"
           }
         ]
       }

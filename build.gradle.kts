@@ -142,6 +142,7 @@ tasks.jar {
 
 tasks.bootJar {
     manifest {
+        attributes["Main-Class"] = "com.github._1c_syntax.bsl.languageserver.BSLLSPLauncher"
         attributes["Implementation-Version"] = archiveVersion.get()
     }
     archiveClassifier.set("exec")

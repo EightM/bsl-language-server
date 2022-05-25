@@ -33,7 +33,6 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.core.io.DefaultResourceLoader;
 
 import java.util.Collection;
 import java.util.Map;
@@ -78,7 +77,7 @@ public class BSLLSBinding {
       .bannerMode(Banner.Mode.OFF)
       .web(WebApplicationType.NONE)
       .logStartupInfo(false)
-      .resourceLoader(new DefaultResourceLoader(BSLLSBinding.class.getClassLoader()))
+      //.resourceLoader(new DefaultResourceLoader(BSLLSBinding.class.getClassLoader()))
       .lazyInitialization(true)
       .properties(Map.of(
         "app.command.line.runner.enabled", "false",

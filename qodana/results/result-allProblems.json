@@ -249,7 +249,7 @@
     "module": "bsl-language-server.main",
     "inspectionName": "NonSerializableFieldInSerializableClass"
   },
-  "hash": "e717666e46e191ad4105dd94fe13539a43e95b731c06c3b54656af8c4f11c5ea"
+  "hash": "9bd9720fd9fe1e4cf2bec3d06a245d8a9f9ec06aa56b941bb143d551ad027ef7"
 },{
   "tool": "Code Inspection",
   "category": "Declaration redundancy",
@@ -361,7 +361,7 @@
     "module": "bsl-language-server.main",
     "inspectionName": "AbstractClassNeverImplemented"
   },
-  "hash": "709f6f42fba172a78e8cee60c6e5b3ec41d541434cab6e7f08cc9abd89363f06"
+  "hash": "ad0e7101efc0550c187172ef3eaf28d06e3a8a6d4fa974c31e7be3fef594b8e7"
 },{
   "tool": "Code Inspection",
   "category": "Inheritance issues",
@@ -430,11 +430,11 @@
       "type": "file",
       "path": "src/main/java/com/github/_1c_syntax/bsl/languageserver/diagnostics/infrastructure/DiagnosticsConfiguration.java",
       "language": "JAVA",
-      "line": 54,
+      "line": 57,
       "offset": 23,
       "length": 24,
       "code": {
-        "startLine": 52,
+        "startLine": 55,
         "length": 24,
         "offset": 62,
         "surroundingCode": "@Configuration\n@RequiredArgsConstructor\npublic abstract class DiagnosticsConfiguration {\n\n  private final LanguageServerConfiguration configuration;"
@@ -445,7 +445,7 @@
     "module": "bsl-language-server.main",
     "inspectionName": "AbstractClassNeverImplemented"
   },
-  "hash": "668701c9ca4d6c1d7f3a4e48b4dcbb6d4c1027e17f0d0bc1f1499baea9abb02a"
+  "hash": "a67ff196a0b72c5d0ef382444a7c0e9aee920ae3bf3bf5f3d34c6ad5c705fe30"
 },{
   "tool": "Code Inspection",
   "category": "Lombok",
@@ -641,7 +641,7 @@
     "module": "bsl-language-server.main",
     "inspectionName": "UnusedAssignment"
   },
-  "hash": "75fe57bbb1e4cf679e4bffcc2fd509812bc21d5ed63ebe41fc9a615d38331fd8"
+  "hash": "46a5fcc63943c33fd8806eeddb44324298a1d36de4c0544e14f9d314687a0f88"
 },{
   "tool": "Code Inspection",
   "category": "Threading issues",
